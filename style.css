@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Montserrat;
+  }
+  body{
+    font-family: Montserrat;
+  }
+  
+.logo img {
+    height: 40px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+}
+  
+nav ul li {
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    
+}
+
+.account a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.hero-image {
+    background-color: #d4e9e2;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    flex:1;
+    margin-right: 20px;
+}
+
+.hero-image-right{
+    margin-left: auto;
+}
+  
+.hero-image2{
+
+}

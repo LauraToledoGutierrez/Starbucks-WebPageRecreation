@@ -6,10 +6,11 @@ header {
     background-color: #FFFFFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Montserrat;
-  }
-  body{
+}
+
+body{
     font-family: Montserrat;
-  }
+}
   
 .logo img {
     height: 40px;
@@ -18,6 +19,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
   
 nav ul li {
@@ -27,8 +30,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333333;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .account a {
@@ -43,15 +45,99 @@ nav ul li a {
     align-items: center;
 }
 
+
+.hero-image1 {
+    background-color: #1e3932;
+    display: 1;
+}
+.hero-text1{
+    color: #FFFFFF;
+    
+}
+
 .hero-text{
     flex:1;
+    margin-top: 25px;
     margin-right: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+    
+}
+
+.hero-image2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.column h1 {
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #008248;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #008248;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.column h2 {
+    font-size: 18px;
+    
+    font-weight: bold;
+}
+
+.column p {
+    margin-top: 10px;
+    font-size: 10px;
 }
 
 .hero-image-right{
     margin-left: auto;
 }
   
-.hero-image2{
+.reward-banner {
+    background-color: #1e3932;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
 
+.reward-banner p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+button {
+    color: white;
+    background-color: #008248;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+button:focus {
+    outline: none;
 }
